@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  padding: 20px 40px;
+  margin: 0;
+}
+
+table {
+  width: 80%;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+thead {
+  text-align: left;
+}
+
+td {
+  background: #eee;
+  border-left: solid 1px #d3d3d3;
+  padding: 5px 5px;
+  line-height: 1.5;
+}
+
+tr:nth-child(odd) td{
+  background: #fff;
+  padding: 5px 5px;
+  line-height: 1.5;
+  border-bottom: solid 1px #d3d3d3;
+}
+
+th {
+  padding: 5px 5px;
+  color: #eee;
+  background-color:cadetblue;
+}
+
+th span {
+  margin-left: 10px;
+}
